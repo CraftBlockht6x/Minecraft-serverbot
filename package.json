@@ -1,0 +1,21 @@
+{
+  "name": "mc-bots",
+  "version": "2.0.9",
+  "description": "Minecraft Bedrock 版离线登录假人管理工具",
+  "main": "bin/mcbot",
+  "bin": {
+    "mcbot": "./bin/mcbot"
+  },
+  "scripts": {
+    "start": "node bin/mcbot"
+  },
+  "keywords": ["minecraft", "bedrock", "bot", "deepseek"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bedrock-protocol": "^3.58.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
